@@ -31,8 +31,8 @@ $('.Salem-Massachusetts').on('click', function() { rightAnswer('.Salem-Massachus
 $('.Salem-Oregon').on('click', function() { wrongAnswer('.Salem-Oregon', '.Salem-Massachusetts'); });
 $('.Maxie').on('click', function() { wrongAnswer('.Maxie', '.Hollywood'); });
 $('.Hollywood').on('click', function() { rightAnswer('.Hollywood', '.Maxie'); });
-$('.twenty').on('click', function() { rightAnswer('.twenty', '.fifteen'); });
-$('.fifteen').on('click', function() { wrongAnswer('.fifteen', '.twenty'); });
+$('.Go-trick-or-treating-as-Peter-Pan-and-Wendy').on('click', function() { rightAnswer('.Go-trick-or-treating-as-Peter-Pan-and-Wendy', '.Drive-her-to-school-every-day'); });
+$('.Drive-her-to-school-every-day').on('click', function() { wrongAnswer('.Drive-her-to-school-every-day', '.Go-trick-or-treating-as-Peter-Pan-and-Wendy'); });
 $('.A-city-bus').on('click', function() { wrongAnswer('.A-city-bus', '.A-job-title'); });
 $('.A-job-title').on('click', function() { rightAnswer('.A-job-title', '.A-city-bus'); });
 $('.Cole-Sprouse').on('click', function() { rightAnswer('.Cole-Sprouse', '.Dylan-Sprouse'); });

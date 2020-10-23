@@ -35,8 +35,8 @@ $('.Go-trick-or-treating-as-Peter-Pan-and-Wendy').on('click', function() { right
 $('.Drive-her-to-school-every-day').on('click', function() { wrongAnswer('.Drive-her-to-school-every-day', '.Go-trick-or-treating-as-Peter-Pan-and-Wendy'); });
 $('.1994').on('click', function() { wrongAnswer('.1994', '.1993'); });
 $('.1993').on('click', function() { rightAnswer('.1993', '.1994'); });
-$('.Cole-Sprouse').on('click', function() { rightAnswer('.Cole-Sprouse', '.Dylan-Sprouse'); });
-$('.Dylan-Sprouse').on('click', function() { wrongAnswer('.Dylan-Sprouse', '.Cole-Sprouse'); });
+$('.Bette-Midler').on('click', function() { rightAnswer('.Bette-Midler', '.Sarah-Jessica-Parker'); });
+$('.Sarah-Jessica-Parker').on('click', function() { wrongAnswer('.Sarah-Jessica-Parker', '.Bette-Midler'); });
 $('.New-York-City').on('click', function() { rightAnswer('.New-York-City', '.Los-Angeles'); });
 $('.Los-Angeles').on('click', function() { wrongAnswer('.Los-Angeles', '.New-York-City'); });
 $('.Ill-Be-There-For-Them').on('click', function() { wrongAnswer('.Ill-Be-There-For-Them', '.Ill-Be-There-For-You'); });

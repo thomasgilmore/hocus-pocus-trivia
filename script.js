@@ -39,8 +39,8 @@ $('.Bette-Midler').on('click', function() { rightAnswer('.Bette-Midler', '.Sarah
 $('.Sarah-Jessica-Parker').on('click', function() { wrongAnswer('.Sarah-Jessica-Parker', '.Bette-Midler'); });
 $('.Car-headlights').on('click', function() { rightAnswer('.Car-headlights', '.Flashlights'); });
 $('.Flashlights').on('click', function() { wrongAnswer('.Flashlights', '.Car-headlights'); });
-$('.Ill-Be-There-For-Them').on('click', function() { wrongAnswer('.Ill-Be-There-For-Them', '.Ill-Be-There-For-You'); });
-$('.Ill-Be-There-For-You').on('click', function() { rightAnswer('.Ill-Be-There-For-You', '.Ill-Be-There-For-Them'); });
+$('.Dog').on('click', function() { wrongAnswer('.Dog', '.Cat'); });
+$('.Cat').on('click', function() { rightAnswer('.Cat', '.Dog'); });
 $('.St-James-Perk').on('click', function() { wrongAnswer('.St-James-Perk', '.Central-Perk'); });
 $('.Central-Perk').on('click', function() { rightAnswer('.Central-Perk', '.St-James-Perk'); });
 $('.A-yellow-picture-frame').on('click', function() { rightAnswer('.A-yellow-picture-frame', '.A-coat-hook'); });

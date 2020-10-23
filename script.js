@@ -27,8 +27,8 @@ const rightAnswer = (classOfButtonClicked, classOfOtherButton) => {
     }
 };
 
-$('.Days-of-Our-Lives').on('click', function() { rightAnswer('.Days-of-Our-Lives', '.General-Hospital'); });
-$('.General-Hospital').on('click', function() { wrongAnswer('.General-Hospital', '.Days-of-Our-Lives'); });
+$('.Salem-Massachusetts').on('click', function() { rightAnswer('.Salem-Massachusetts', '.Salem-Oregon'); });
+$('.Salem-Oregon').on('click', function() { wrongAnswer('.Salem-Oregon', '.Salem-Massachusetts'); });
 $('.Rotate').on('click', function() { wrongAnswer('.Rotate', '.Pivot'); });
 $('.Pivot').on('click', function() { rightAnswer('.Pivot', '.Rotate'); });
 $('.twenty').on('click', function() { rightAnswer('.twenty', '.fifteen'); });

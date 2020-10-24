@@ -41,8 +41,8 @@ $('.Car-headlights').on('click', function() { rightAnswer('.Car-headlights', '.F
 $('.Flashlights').on('click', function() { wrongAnswer('.Flashlights', '.Car-headlights'); });
 $('.Dog').on('click', function() { wrongAnswer('.Dog', '.Cat'); });
 $('.Cat').on('click', function() { rightAnswer('.Cat', '.Dog'); });
-$('.St-James-Perk').on('click', function() { wrongAnswer('.St-James-Perk', '.Central-Perk'); });
-$('.Central-Perk').on('click', function() { rightAnswer('.Central-Perk', '.St-James-Perk'); });
+$('.A-vampire').on('click', function() { wrongAnswer('.A-vampire', '.A-skeleton'); });
+$('.A-skeleton').on('click', function() { rightAnswer('.A-skeleton', '.A-vampire'); });
 $('.A-yellow-picture-frame').on('click', function() { rightAnswer('.A-yellow-picture-frame', '.A-coat-hook'); });
 $('.A-coat-hook').on('click', function() { wrongAnswer('.A-coat-hook', '.A-yellow-picture-frame'); });
 $('.Cynthia-Fee').on('click', function() { wrongAnswer('.Cynthia-Fee', '.The-Rembrandts'); });

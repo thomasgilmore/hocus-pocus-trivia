@@ -45,5 +45,5 @@ $('.A-vampire').on('click', function() { wrongAnswer('.A-vampire', '.A-skeleton'
 $('.A-skeleton').on('click', function() { rightAnswer('.A-skeleton', '.A-vampire'); });
 $('.Kenny-Ortega').on('click', function() { rightAnswer('.Kenny-Ortega', '.Mark-Rosman'); });
 $('.Mark-Rosman').on('click', function() { wrongAnswer('.Mark-Rosman', '.Kenny-Ortega'); });
-$('.Cynthia-Fee').on('click', function() { wrongAnswer('.Cynthia-Fee', '.The-Rembrandts'); });
-$('.The-Rembrandts').on('click', function() { rightAnswer('.The-Rembrandts', '.Cynthia-Fee'); });
+$('.Latin').on('click', function() { wrongAnswer('.Latin', '.French'); });
+$('.French').on('click', function() { rightAnswer('.French', '.Latin'); });

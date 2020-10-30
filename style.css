@@ -39,8 +39,8 @@
         border: 2px solid black;
         border-radius: 10px;
         color: black;
-        font-size: 15px;
-        height: 55px;
+        font-size: 14px;
+        height: 70px;
         margin: 5px;
         padding: 2px;
         width: 230px;
@@ -53,6 +53,20 @@
 
     .hide {
         display: none;
+    }
+}
+
+@media (min-width: 343px) {
+    button {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        font-size: 15px;
+        height: 55px;
+        margin: 5px;
+        padding: 2px;
+        width: 230px;
     }
 }
 
